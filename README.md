@@ -215,7 +215,9 @@ attributes we've defined for our Cheese model:
 Cheese.last.name
 ```
 
-With our `Cheese` model working, let's add a new feature that returns a summary
+With our `Cheese` mCheese.create!(name: 'Cheddar', price: 3, is_best_seller: true)
+Cheese.create!(name: 'Pepper Jack', price: 4, is_best_seller: true)
+Cheese.create!(name: 'Limburger', price: 8, is_best_seller: false)odel working, let's add a new feature that returns a summary
 of a cheese. Exit out of the Rails console with `control + d`. Then add this to
 the Cheese model file:
 
